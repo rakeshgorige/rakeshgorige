@@ -1,42 +1,34 @@
 # Rakesh Goriga
-### Platform and DevOps Engineer · Dallas, Texas
+### Platform & DevOps Engineering | Azure · Terraform · Kubernetes · CI/CD
 
-I work with Azure infrastructure, Terraform, CI/CD, and cloud operations. This portfolio documents my hands-on labs, the choices behind them, and what I learn while building and troubleshooting them.
+**Dallas, Texas · U.S. permanent resident · Open to remote Platform Engineering and DevOps roles**
 
-[LinkedIn](https://www.linkedin.com/in/rakeshg1234567/) · [Portfolio](https://github.com/rockygorge/RockyProject)
+I build and troubleshoot cloud infrastructure and delivery workflows, with an emphasis on **secure automation, reliable platforms, and developer experience**. My professional background includes enterprise Azure networking and identity, CI/CD modernization, infrastructure delivery, and observability. This GitHub profile showcases **personal projects and learning labs**, not customer production code.
 
-## Featured build: PlatformOps Board
+[LinkedIn](https://www.linkedin.com/in/rakeshg1234567/) · [Featured project](https://github.com/rockygorge/RockyProject) · [Azure Delivery Review](https://github.com/rockygorge/azure-delivery-review)
 
-A three-tier web application with a Python API and PostgreSQL, Kubernetes manifests, Terraform-defined AKS/ACR, and GitHub Actions delivery. Includes health checks, persistent storage configuration, network policies, contract tests, and operations documentation. CI checks have passed; AKS deployment remains unverified.
+## Featured projects
 
-[Explore the code and demo walkthrough](https://github.com/rockygorge/RockyProject/tree/main/three-tier-platform) · [Verification status](https://github.com/rockygorge/RockyProject/blob/main/three-tier-platform/docs/verification.md)
+### [PlatformOps Board — Three-tier Kubernetes platform](https://github.com/rockygorge/RockyProject/tree/main/three-tier-platform)
+Nginx frontend, Python API, and PostgreSQL with Kubernetes manifests, Terraform-defined AKS/ACR, and GitHub Actions CI. Includes health checks, persistence, network policies, resource controls, and operations documentation.
 
-## Delivery readiness prototype
+**Verification:** CI checks have passed; actual AKS deployment remains unverified. [Architecture and verification details](https://github.com/rockygorge/RockyProject/blob/main/three-tier-platform/docs/verification.md).
 
-[Azure Delivery Review](https://github.com/rockygorge/azure-delivery-review) is an AI-assisted Python prototype that reviews declared release controls. It uses fictional inputs and does not verify actual cloud or GitHub settings.
+### [Azure Delivery Review — Release-readiness prototype](https://github.com/rockygorge/azure-delivery-review)
+An AI-assisted Python CLI that evaluates **declared** Terraform, authentication, approval, and recovery controls from fictional JSON input. Includes automated tests and GitHub Actions. It does **not** inspect real Azure or GitHub settings or establish compliance.
 
-## Earlier lab
-
-### Azure platform delivery lab
-A static website provisioned with Terraform and delivered through GitHub Actions using Azure OIDC federation. The lab separates state from application resources and includes validation, a saved-plan apply, publishing, and a content smoke test.
-
-**Implemented:** Azure Storage static hosting · Terraform remote state · GitHub Actions · OIDC · RBAC · deployment concurrency · smoke testing
-
-[Read the architecture and engineering case study](https://github.com/rockygorge/RockyProject/blob/main/docs/azure-platform-lab.md)
-
-The source repository is currently private. The public case study describes the implementation without publishing account configuration.
+### [Azure Platform Delivery Lab — Terraform and GitHub Actions](https://github.com/rockygorge/RockyProject/blob/main/docs/azure-platform-lab.md)
+A documented lab using Terraform remote state, Azure Storage static website hosting, GitHub Actions with Azure OIDC federation, RBAC, saved-plan deployment, and smoke tests. The underlying infrastructure repository is private; the public case study explains the design.
 
 ## Engineering focus
 
-- **Repeatable infrastructure:** declared configuration, remote state, and explicit provisioning boundaries.
-- **Secure delivery:** short-lived deployment authentication and scoped cloud access.
-- **Operability:** validation, deployment checks, troubleshooting notes, and predictable cleanup.
-- **Developer experience:** setup instructions that explain both the commands and their purpose.
+- **Cloud infrastructure:** Azure networking, identity, private connectivity, Terraform, Kubernetes/AKS.
+- **Delivery automation:** GitHub Actions, Azure DevOps, CI/CD patterns and repeatable deployment checks.
+- **Developer enablement:** reusable workflows, understandable documentation, and safer release processes.
+- **Operational visibility:** monitoring, diagnostics, and troubleshooting across application and infrastructure boundaries.
 
-## Building next
+## About this portfolio
 
-I am extending my practical skills in Python automation, Kubernetes, Helm, and observability. These are learning priorities; they are not represented as completed features of the Azure lab.
+Projects are documented with implementation status and limitations. Course materials and learning repositories remain separate from original projects, and third-party work retains its original attribution.
 
-## Repository guide
-
-Original projects and case studies are linked here. Course forks elsewhere on my account are learning references and retain their original authorship.
+**Rakesh Goriga** · Platform & DevOps Engineering · Dallas, Texas
