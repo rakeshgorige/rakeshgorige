@@ -1,4 +1,4 @@
-# Rakesh Goriga
+# Rakesh Gorige
 ### Platform & DevOps Engineering | Azure · Terraform · Kubernetes · CI/CD
 
 **Dallas, Texas · U.S. permanent resident · Open to remote Platform Engineering and DevOps roles**
@@ -31,4 +31,4 @@ A documented lab using Terraform remote state, Azure Storage static website host
 
 Projects are documented with implementation status and limitations. Course materials and learning repositories remain separate from original projects, and third-party work retains its original attribution.
 
-**Rakesh Goriga** · Platform & DevOps Engineering · Dallas, Texas
+**Rakesh Gorige** · Platform & DevOps Engineering · Dallas, Texas
